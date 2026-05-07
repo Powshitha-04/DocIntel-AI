@@ -1,8 +1,7 @@
+
 # 🔍 DocIntel — Document Intelligence System
 
 DocIntel is a production-style Streamlit dashboard for semantic text analysis. It leverages machine learning to provide deep insights into document collections through similarity detection, keyword extraction, and automated clustering.
-
----
 
 ## 🚀 Key Features
 
@@ -13,8 +12,6 @@ DocIntel is a production-style Streamlit dashboard for semantic text analysis. I
 - **2D Projection**: Visualize document relationships in a 2D space using Principal Component Analysis (PCA).
 - **Interactive UI**: Clean, professional SaaS-style interface with real-time analysis.
 
----
-
 ## 🛠️ Technology Stack
 
 - **Core**: Python 3.8+
@@ -23,8 +20,6 @@ DocIntel is a production-style Streamlit dashboard for semantic text analysis. I
 - **NLP Preprocessing**: NLTK (Tokenization, Lemmatization, Stopword removal)
 - **Data Handling**: Pandas, NumPy
 - **Visualization**: Plotly Express & Graph Objects
-
----
 
 ## 📦 Installation
 
@@ -45,8 +40,6 @@ DocIntel is a production-style Streamlit dashboard for semantic text analysis. I
    nltk.download(['punkt', 'stopwords', 'wordnet'])
    ```
 
----
-
 ## 🏃 Usage
 
 1. **Start the Streamlit app**:
@@ -63,7 +56,6 @@ DocIntel is a production-style Streamlit dashboard for semantic text analysis. I
    - Adjust clustering and keyword settings as needed.
    - Click **🚀 Analyze Documents** to generate insights.
 
----
 
 ## 🧪 Verification
 
@@ -72,7 +64,6 @@ To verify that the analysis engine is producing correct results, run the automat
 python verify_results.py
 ```
 
----
 
 ## 📂 Project Structure
 
@@ -82,3 +73,5 @@ python verify_results.py
 - `similarity_engine.py`: Cosine similarity computation.
 - `clustering.py`: KMeans clustering and PCA projection.
 - `verify_results.py`: End-to-end verification script.
+
+
