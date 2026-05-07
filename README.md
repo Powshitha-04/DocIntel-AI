@@ -57,17 +57,18 @@ DocIntel is a production-style Streamlit dashboard for semantic text analysis. I
    - Click **Analyze Documents** to generate insights.
 
 ## Screenshots
-	### HomePage
-	![HomePage](images/HomePage.png)
 
-	### Keywords
-	![Keywords](images/Keywords.png)
-	
-	### SemanticAnalysis
-	![SemanticAnalysis](images/SemanticAnalysis.png)
+### HomePage
+![HomePage](images/HomePage.png)
 
-	### PCA
-	![PCA](images/PCA.png)
+### Keywords
+![Keywords](images/Keywords.png)
+
+### SemanticAnalysis
+![SemanticAnalysis](images/SemanticAnalysis.png)
+
+### PCA
+![PCA](images/PCA.png)
 
 
 ## Verification
