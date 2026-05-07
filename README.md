@@ -1,5 +1,5 @@
 
-# 🔍 DocIntel — Document Intelligence System
+# DocIntel — Document Intelligence System
 
 DocIntel is a production-style Streamlit dashboard for semantic text analysis. It leverages machine learning to provide deep insights into document collections through similarity detection, keyword extraction, and automated clustering.
 
