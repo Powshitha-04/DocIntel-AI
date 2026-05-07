@@ -3,7 +3,7 @@
 
 DocIntel is a production-style Streamlit dashboard for semantic text analysis. It leverages machine learning to provide deep insights into document collections through similarity detection, keyword extraction, and automated clustering.
 
-## 🚀 Key Features
+## Key Features
 
 - **Semantic Analysis**: Understand the underlying meaning of your documents beyond simple keyword matching.
 - **Similarity Heatmaps**: Visualize pairwise cosine similarity between all uploaded documents.
@@ -12,7 +12,7 @@ DocIntel is a production-style Streamlit dashboard for semantic text analysis. I
 - **2D Projection**: Visualize document relationships in a 2D space using Principal Component Analysis (PCA).
 - **Interactive UI**: Clean, professional SaaS-style interface with real-time analysis.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Core**: Python 3.8+
 - **Frontend**: Streamlit
@@ -21,12 +21,12 @@ DocIntel is a production-style Streamlit dashboard for semantic text analysis. I
 - **Data Handling**: Pandas, NumPy
 - **Visualization**: Plotly Express & Graph Objects
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Powshitha-04/-Eyedentify.git
-   cd AI
+   git clone https://github.com/Powshitha-04/DocIntel-AI.git
+   cd DocIntel-AI  
    ```
 
 2. **Install dependencies**:
@@ -40,7 +40,7 @@ DocIntel is a production-style Streamlit dashboard for semantic text analysis. I
    nltk.download(['punkt', 'stopwords', 'wordnet'])
    ```
 
-## 🏃 Usage
+## Usage
 
 1. **Start the Streamlit app**:
    ```bash
@@ -54,10 +54,23 @@ DocIntel is a production-style Streamlit dashboard for semantic text analysis. I
 2. **Upload Documents**:
    - Use the sidebar to paste text manually or upload `.txt` files.
    - Adjust clustering and keyword settings as needed.
-   - Click **🚀 Analyze Documents** to generate insights.
+   - Click **Analyze Documents** to generate insights.
+
+## Screenshots
+	### HomePage
+	![HomePage](images/HomePage.png)
+
+	### Keywords
+	![Keywords](images/Keywords.png)
+	
+	### SemanticAnalysis
+	![SemanticAnalysis](images/SemanticAnalysis.png)
+
+	### PCA
+	![PCA](images/PCA.png)
 
 
-## 🧪 Verification
+## Verification
 
 To verify that the analysis engine is producing correct results, run the automated test suite:
 ```bash
@@ -65,7 +78,7 @@ python verify_results.py
 ```
 
 
-## 📂 Project Structure
+## Project Structure
 
 - `app.py`: Main Streamlit dashboard and UI logic.
 - `preprocessing.py`: NLP cleaning pipeline (Lemmatization, Stopwords).
